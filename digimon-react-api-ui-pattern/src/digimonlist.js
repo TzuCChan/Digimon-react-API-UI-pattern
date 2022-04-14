@@ -1,4 +1,4 @@
-export const digimonList = [
+const digimonList = [
   {
     Number: 1,
     Digimon: "WarGreymon",
@@ -13,7 +13,7 @@ export const digimonList = [
     Lv50Def: 163,
     Lv50Int: 99,
     Lv50Spd: 140,
-    Image: "https://static.wikia.nocookie.net/digimon/images/4/49/WarGreymon_b.jpg/revision/latest?cb=20090127185540"
+    Image: "https://cosplayfu-website.s3.amazonaws.com/_Upload/b/83426-Wargreymon-Plush-from-Digimon-1-2.jpg"
   },
   {
     Number: 2,
@@ -29,7 +29,7 @@ export const digimonList = [
     Lv50Def: 129,
     Lv50Int: 129,
     Lv50Spd: 178,
-    Image: "https://static.wikia.nocookie.net/digimon/images/1/1d/MetalGarurumon_b.jpg/revision/latest?cb=20090127180250"
+    Image: "https://i.pinimg.com/474x/f8/bd/ea/f8bdeaca4aec74b2a3790757cec03e06.jpg"
   },
   {
     Number: 3,
@@ -45,7 +45,7 @@ export const digimonList = [
     Lv50Def: 168,
     Lv50Int: 134,
     Lv50Spd: 144,
-    Image: "https://static.wikia.nocookie.net/digimon/images/9/9c/Omnimon_b.jpg/revision/latest?cb=20090127181741"
+    Image: "https://preview.redd.it/samjb0gig6u71.jpg?width=640&crop=smart&auto=webp&s=8e1d16c05ed4fa151ad0b7899d7a3c633da4175c"
   },
   {
     Number: 4,
@@ -61,7 +61,7 @@ export const digimonList = [
     Lv50Def: 139,
     Lv50Int: 139,
     Lv50Spd: 148,
-    Image: "https://static.wikia.nocookie.net/digimon/images/b/ba/Imperialdramon_Dragon_Mode_b.jpg/revision/latest?cb=20120309020129"
+    Image: "https://i.ebayimg.com/images/g/1MgAAOSwP15g88xC/s-l300.jpg"
   },
   {
     Number: 5,
@@ -77,7 +77,71 @@ export const digimonList = [
     Lv50Def: 124,
     Lv50Int: 114,
     Lv50Spd: 153,
-    Image: "https://static.wikia.nocookie.net/digimon/images/4/4c/Imperialdramon_Fighter_Mode_b.jpg/revision/latest?cb=20120420053754"
+    Image: "https://i.pinimg.com/originals/9d/9a/2c/9d9a2cb13cd017fb20edcbdac6dbec0b.jpg"
+  },
+  {
+    Number: 138,
+    Digimon: "Paildramon",
+    Stage: "Ultimate",
+    Type: "Free",
+    Attribute: "Neutral",
+    Memory: 14,
+    EquipSlots: 1,
+    Lv50HP: 1280,
+    Lv50SP: 133,
+    Lv50Atk: 139,
+    Lv50Def: 124,
+    Lv50Int: 109,
+    Lv50Spd: 128,
+    Image: "https://i.pinimg.com/originals/5f/0d/18/5f0d18b595653b6fecd9f687c54fbee1.jpg"
+  },
+  {
+    Number: 61,
+    Digimon: "ExVeemon",
+    Stage: "Champion",
+    Type: "Free",
+    Attribute: "Neutral",
+    Memory: 8,
+    EquipSlots: 1,
+    Lv50HP: 1030,
+    Lv50SP: 118,
+    Lv50Atk: 104,
+    Lv50Def: 94,
+    Lv50Int: 94,
+    Lv50Spd: 118,
+    Image: "https://s1.zerochan.net/ExVeemon.600.2508422.jpg"
+  },
+  {
+    Number: 87,
+    Digimon: "Stingmon",
+    Stage: "Champion",
+    Type: "Free",
+    Attribute: "Plant",
+    Memory: 8,
+    EquipSlots: 1,
+    Lv50HP: 1130,
+    Lv50SP: 84,
+    Lv50Atk: 143,
+    Lv50Def: 74,
+    Lv50Int: 74,
+    Lv50Spd: 133,
+    Image: "https://i.pinimg.com/originals/5b/dc/06/5bdc06e376fea266d98cb5a63183770a.jpg"
+  },
+  {
+    Number: 208,
+    Digimon: "BlackWarGreymon",
+    Stage: "Mega",
+    Type: "Virus",
+    Attribute: "Fire",
+    Memory: 20,
+    EquipSlots: 2,
+    Lv50HP: 1730,
+    Lv50SP: 93,
+    Lv50Atk: 183,
+    Lv50Def: 178,
+    Lv50Int: 89,
+    Lv50Spd: 140,
+    Image: "https://i.pinimg.com/originals/00/82/85/0082851446ed627fba2c369f9cc378ef.jpg"
   },
   {
     Number: 6,
@@ -93,6 +157,8 @@ export const digimonList = [
     Lv50Def: 154,
     Lv50Int: 154,
     Lv50Spd: 153,
-    Image: "https://static.wikia.nocookie.net/digimon/images/a/ae/Imperialdramon_Paladin_Mode_b.jpg/revision/latest?cb=20120330222820"
-  },
+    Image: "https://i.pinimg.com/originals/a6/54/a4/a654a4956b79456f0ae498fef577f521.png"
+  }
 ]
+
+export default digimonList

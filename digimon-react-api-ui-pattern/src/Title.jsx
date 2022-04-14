@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Title() {
   return (
-    <div>Digimon Adventure: LAST EVOLUTION!</div>
+    <h1>Digimon Adventure: LAST EVOLUTION!</h1>
   )
 }
