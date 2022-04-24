@@ -1,3 +1,38 @@
+# Digimon React API UI Pattern
+
+This project uses an API to display information about Digimon from the DIGIMON franchise.
+
+## About
+
+Whatever tab is clicked on, a fetch request is made to retrive the information of Digimons.
+
+## Technologies Used
+
+1. CSS
+2. JavaScript
+3. React
+4. API
+5. Node.js
+6. Git
+
+## Process
+
+1. Create the basic files by typing NPX create-react-app digimon-react-api-ui-pattern on the terminal.
+
+2. Used React Router's BrowserRouter, Link, Routes and Route a to add navigation to a React application.
+
+3. react-router-dom is installed as a dependency in package.json.
+
+4. Used NPM start run to open the browser.
+
+5. Used Routes component to write all of the routes in.
+
+6. Used Route component to render a specified component (using element) based on the current url (path) is at.
+
+7. Used CSS to style the page.
+
+8. Upload to GitHub.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
