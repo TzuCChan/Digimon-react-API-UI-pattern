@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import list from './digimonlist.js';
-import Modal from './Modal.jsx';
+import Slider from './Slider.jsx';
 
 export default function Home() {
   const [digimonList, setDigimonList] = useState(list);
